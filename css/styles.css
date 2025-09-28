@@ -1,0 +1,41 @@
+.right {
+    position: absolute;
+    top: 0; 
+    left: 35%;
+    /* Optional styling */
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2;
+    background-color: whitesmoke;
+}
+
+.Car {
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+.nav-item {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    hover {
+        color: red;
+    }
+}
