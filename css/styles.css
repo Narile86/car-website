@@ -9,6 +9,11 @@
     margin: 20px 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .img {
     width: 40px;
     height: 40px;
@@ -20,7 +25,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 2;
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 .Car {
@@ -38,4 +43,8 @@
     hover {
         color: red;
     }
+}
+
+.icons {
+    color: white;
 }
